@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="liveTime" class="top.pcat.entity.LiveTime"-->
+<!--           init-method="initMethod" destroy-method="destoryMethod">-->
+<!--        <property name="id" value="123"/>-->
+
+<!--    </bean>-->
+
+<!--    <bean id="myPostProcess" class="top.pcat.entity.MyPostProcess"/>-->
+
+    <bean id="zs" class="top.pcat.entity.Employee" autowire="byType">
+
+
+    </bean>
+
+    <bean id="dept1" class="top.pcat.entity.Department">
+
+        <property name="deptName" value="来发"/>
+    </bean>
+
+</beans>
