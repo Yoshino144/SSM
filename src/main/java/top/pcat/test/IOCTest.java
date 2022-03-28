@@ -49,7 +49,7 @@ class LoginServiceProxy implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-//test
+//test2
         boolean result = (boolean) method.invoke(loginService, args);
         if (result) {
             String username = (String) args[0];
